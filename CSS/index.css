@@ -1,0 +1,82 @@
+body{
+	 /*background: rgb(0,36,3);
+	 background: linear-gradient(90deg, rgba(0,36,3,1) 46%, rgba(17,121,9,1) 100%, rgba(134,255,0,0.0004202364539566128) 100%); 
+	 */
+	font-family: sans-serif;
+	background-image: url(https://2.bp.blogspot.com/-2p9C0CGQBCs/XJMUnKYS8JI/AAAAAAAAEMw/IN8-4UsmGIEY7zrrQOWN5eF-IdU5GTEtQCKgBGAs/w0/red-yellow-white-ranger-power-rangers-battle-for-the-grid-4K-106.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+h1{
+	border: 10px solid #000;
+	color: #000;
+	text-align: center;
+	font-size: 50px;
+	max-width: 400px;
+	border-radius: 20px;
+	padding: 5px;
+	position: relative;
+	left: 485px;
+	background: rgb(131,58,180);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+}
+
+.padre{
+	text-align: center;
+	color: #fff;
+	margin: 0 auto;
+	border: 10px solid #000;
+	border-radius: 35px;
+	max-width: 440px;
+	min-height: 550px;
+	padding: 35px 5px;
+	backdrop-filter: blur(1px);
+	-webkit-backdrop-filter: blur(px);
+
+}
+
+.contenedor{
+	display: grid;
+	grid-template-columns: 115px 115px 115px 115px;
+	grid-template-rows: 110px 110px  110px 110px;
+	justify-content: center;
+}
+
+
+#entrada{
+	width: 452px;
+	height: 120px;
+	font-size: 60px;
+	position: relative;
+	left: -6px;
+	border:10px solid #000;
+	border-bottom: 15px solid #000;
+	border-radius: 25px 25px 0 0;
+	top: -35px;
+	color: #000;
+	background: rgb(131,58,180);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+	font-weight: bold;
+
+}
+
+.boton:hover{
+	background-color: #a68550;
+}
+
+.b7{
+	border-radius: 15rem;
+	margin: 10px;
+	font-size: 35px;
+	font-weight: bold;
+	background: rgb(131,58,180);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); 
+	color: #000;
+	padding: 15px;
+}
+
+.b7:hover{
+	border: 7px solid black;
+}

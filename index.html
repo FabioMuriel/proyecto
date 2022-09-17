@@ -1,0 +1,35 @@
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora</title>
+	<link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+	<h1>Calculadora</h1>
+	<div class="padre"> 	
+		<form action="tick" id="formulario" name = "formulario">
+			<input type="text" id = "entrada" name="ans" readonly>
+			<div class="contenedor" id="cont">
+				<input type="submit" class="b7" onclick="document.formulario.ans.value+='7'" value="7">
+				<input type="submit" class="b7" onclick="document.formulario.ans.value+='8'" value="8">
+				<input type="submit" class="b7" onclick="document.formulario.ans.value+='9'" value="9">
+				<input type="submit" class="b7" onclick="document.formulario.ans.value+='*'" value="x">
+				<input type="submit" class="b7" onclick="document.formulario.ans.value+='4'" value="4">
+				<input type="submit" class="b7" onclick="document.formulario.ans.value+='5'" value="5">
+				<input type="submit" class="b7" onclick="document.formulario.ans.value+='6'" value="6">
+				<input type="submit" class="b7" onclick="document.formulario.ans.value+='+'" value="+">
+				<input type="submit" class="b7" onclick="document.formulario.ans.value+='1'" value="1">
+				<input type="submit" class="b7" onclick="document.formulario.ans.value+='2'" value="2">
+				<input type="submit" class="b7" onclick="document.formulario.ans.value+='3'" value="3">
+				<input type="submit" class="b7" onclick="document.formulario.ans.value+='-'" value="-">
+				<input type="submit" class="b7" id="igual" value="=">
+				<input type="submit" class="b7" onclick="document.formulario.ans.value+='0'" value="0">
+				<input type="submit" class="b7" id="borrar" value="⌫">
+				<input type="submit" class="b7" onclick="document.formulario.ans.value+='/'" value="÷">
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="JS/index.js"></script>
+</body>
+</html>
